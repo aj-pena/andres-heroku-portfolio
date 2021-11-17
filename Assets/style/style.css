@@ -1,0 +1,183 @@
+:root{
+    box-sizing: border-box;
+}
+
+*{
+    /* border: solid black 1px; */
+    opacity: 98%;
+}
+
+/* Background styling */
+#background{
+    background-color:rgb(212, 243, 233);
+    margin:0 0.2%;
+    height: 100vh;
+    
+}
+/* -------HEADER------------- */
+/* header styling */
+.header{
+    padding-right: 3%;
+    
+}
+#myName{
+    padding-left: 2vw;
+    padding-top: 2vh;
+}
+h1 a{
+    display: block;
+    color:black;
+    text-decoration: none;
+    font-weight: bold; 
+}
+h1 a:hover{
+    background-color: #cecbcb;
+}
+.headerBtns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: right;
+    min-width: 10vw;
+    margin-right: 1vw;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 150%;
+  }
+  
+  li a:hover {
+    background-color: #cecbcb;
+  }
+  /* -------RIBBON------------- */
+.ribbon{
+  background: url(https://images.unsplash.com/photo-1605106325682-3482f7c1c9c4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=663&q=80);
+  background-repeat: repeat;
+  background-size: contain;
+  /* max-height: 25vh; */
+
+}
+/* -------CONTENT------------- */
+.section-title {
+   display: flex;
+   justify-content: center; 
+   border-right: solid rgb(60, 94, 167) 3px;
+  
+}
+.about{
+    /* max-height: 20vh; */
+    margin-top: 3vh;    
+}
+#about-me{
+    font-size: 150%;
+    text-align: justify;
+    padding: 2%;  
+    
+}
+/* Work section */
+.work{
+    /* max-height: 20vh; */
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.big{
+    width: 100%;
+    height:auto;
+}
+/* Contact section */
+.contact{
+    min-height: 10vh;
+    /* position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0; */
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    padding-right:1%;
+    margin-bottom: 3vh;
+    /* max-height: 20vh; */
+}
+.contact-methods{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 1%;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    background-color: whitesmoke;
+    margin: 0;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+/* Greeting */
+h1 {
+    margin:5% 10%;
+    font-weight: bolder;
+    order: 2;
+    height: fit-content;
+    font-family: 'Lora', serif;
+    font-size: 32pt;
+    flex: 1 1 auto;
+}
+/* Format ribbon */
+.ribbon{
+    display: flex;
+    justify-content: space-between;
+}
+/* Format my photograph */
+.me{
+    align-self: flex-start;
+    margin: 0;
+    max-width: 200px;
+    max-height: 200px;
+    /* border: solid black 1px; */
+    /* border-radius: 45px; */
+    opacity: 90%;
+    flex: 0 1 400px;
+}
+#subtitle{
+    display: inline-block;
+    background-color: rgba(22, 23, 25, 0.9);
+    color: orange;
+    align-self: flex-end;
+    
+}
+
+/* Format my name specifically */
+#myName {
+    font-family: 'Lora', serif;
+    font-size: 20pt;
+    margin: 0;
+    padding-bottom: 0.5%;
+    padding-left: 0.5%;
+    max-width: 400px;
+    text-align: left;
+    order: 3;
+}
+
+@media screen and (max-width: 768px) {
+    .card-medium{
+        width:100% !important;
+    }
+}
