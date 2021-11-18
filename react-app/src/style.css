@@ -116,17 +116,24 @@ ul {
     margin-top: 3vh;
     margin-bottom: 3vh;
 }
+.row{
+    margin-bottom: 1% !important;
+}
 .big{
-    width: 100%;
+    width: 96%;
     height:auto;
 }
 .big-app{
-    width: 100%;
-    height:auto; 
+    width: 96%;
+    height:auto;
+    
+     
 }
 .medium-app{
-    width: 50%;
+    width: 48%;
     height:auto;
+    margin-left:1%;
+    margin-bottom:1%;
 }
 /* Resume section */
 .resume{
