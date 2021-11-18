@@ -120,6 +120,10 @@ ul {
     width: 100%;
     height:auto; 
 }
+.medium-app{
+    width: 50%;
+    height:auto;
+}
 /* Contact section */
 .contact{
     min-height: 10vh;
@@ -197,5 +201,9 @@ h1 {
 @media screen and (max-width: 768px) {
     .card-medium{
         width:100% !important;
+    }
+    .medium-app{
+        width: 100%;
+        height:auto;
     }
 }
