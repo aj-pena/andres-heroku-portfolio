@@ -97,7 +97,7 @@ ul {
    flex-direction: column;
    align-items: center; 
    border-right: solid rgb(60, 94, 167) 3px;
-   padding-top: 5vh; 
+   padding-top: 3vh; 
   
 }
 .about{
@@ -128,6 +128,31 @@ ul {
     width: 50%;
     height:auto;
 }
+/* Resume section */
+.resume{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items:flex-start;
+   padding-left: 10vw;
+   padding-top: 5vh;
+   padding-bottom: 5vh;
+}
+.resumeUl{
+    list-style: disc;
+    padding: 2%;
+
+
+}
+.resumeList{
+    float:none;
+    min-width: 10vw;
+    margin-right: 1vw;
+    font-size: 120%;
+    
+      
+}
+
 /* Contact section */
 .contact{
     min-height: 10vh;
@@ -169,7 +194,9 @@ h1 {
 /* Format ribbon */
 .ribbon{
     display: flex;
-    justify-content: space-between;
+    align-items: flex-end;
+    justify-content: right;
+    padding-right: 3vw;
 }
 /* Format my photograph */
 .me{
@@ -188,7 +215,7 @@ h1 {
     display: inline-block;
     background-color: rgba(22, 23, 25, 0.9);
     color: orange;
-    align-self: flex-end;
+    
     
 }
 

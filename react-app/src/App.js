@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Gallery from './components/pages/Gallery';
+import Resume from './components/pages/Resume';
 
 import 'bootstrap/dist/css/bootstrap.css';
 // Put any other imports below so that CSS from your
@@ -20,6 +21,8 @@ export default function App() {
       return <Gallery/>;
     case 2:
       return <Contact/>;
+    case 3:
+      return <Resume/>;
     
   }
   
