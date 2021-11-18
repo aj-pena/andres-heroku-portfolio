@@ -86,14 +86,18 @@ ul {
   background: url(https://images.unsplash.com/photo-1605106325682-3482f7c1c9c4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=663&q=80);
   background-repeat: repeat;
   background-size: contain;
+  min-height: 200px;
   /* max-height: 25vh; */
 
 }
 /* -------CONTENT------------- */
 .section-title {
    display: flex;
-   justify-content: center; 
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-items: center; 
    border-right: solid rgb(60, 94, 167) 3px;
+   padding-top: 5vh; 
   
 }
 .about{
@@ -169,14 +173,16 @@ h1 {
 }
 /* Format my photograph */
 .me{
-    align-self: flex-start;
+    display: block;
+    /* align-self: flex-start; */
     margin: 0;
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
     /* border: solid black 1px; */
     /* border-radius: 45px; */
     opacity: 90%;
-    flex: 0 1 400px;
+    /* flex: 0 1 400px; */
+    margin-top: 2vh;
 }
 #subtitle{
     display: inline-block;

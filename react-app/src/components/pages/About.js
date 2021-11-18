@@ -1,4 +1,5 @@
 import React from 'react'
+import Picture from '../../Assets/images/me.jpg'
 
 function About() {
     return (
@@ -8,6 +9,8 @@ function About() {
                 {/* <!-- section title --> */}
                 <div className="col-12 col-sm-6 col-md-4 col-lg-4 section-title">
                   <h2><a id="about-me-section">About Me</a></h2>
+                  {/* <!-- Photo of me --> */}
+                  <img className="me" src={Picture} alt="Photograph of Andrés Peña"/>
                 </div>
                 {/* <!-- content --> */}
                 <div className="col-12 col-sm-6 col-md-8 col-lg-8">
