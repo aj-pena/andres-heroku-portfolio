@@ -1,22 +1,27 @@
+import React from 'react'
+import Navigation from './Navigation'
 
-export default function Header() {
+export default function Header(props) {
     return (
         <div>
              {/* <!-- Header --> */}
-            <div class="row header">
+            <div className="row header">
                 {/* <!-- name --> */}
-              <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+              <div className="col-12 col-sm-6 col-md-4 col-lg-4">
                 <h1 id="myName"><a href="./Assets/pdf/Andrés_Peña.pdf">Andrés Peña</a></h1>
-              </div>
-                {/* <!-- buttons --> */}
-              <div class="col-12 col-sm-6 col-md-8 col-lg-8">
-                    <ul class="headerBtns">
-                      <li><a href="#about-me-section">About Me</a></li>
-                      <li><a href="#work-section">Work</a></li>
-                      <li><a href="#contact-me-section">Contact Me</a></li>
-                    </ul>                
               </div>              
+                <Navigation setCurrentPage={props.setCurrentPage} />              
+              
             </div>
+            {/* <!-- Ribbon --> */}
+            <div className="row">
+              {/* <!-- subtitle --> */}
+                <div className="col ribbon">
+                  {/* <!-- Photo of me --> */}
+                  <img className="me" src="../me.jpg" alt="Photograph of Andrés Peña"/>
+                  <h3 id="subtitle">Hi, I am a web developer keen to help your city move</h3>
+                </div>              
+              </div>
         </div>
     );
 }
