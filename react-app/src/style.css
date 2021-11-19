@@ -119,15 +119,9 @@ ul {
 .row{
     margin-bottom: 1% !important;
 }
-.big{
-    width: 96%;
-    height:auto;
-}
-.big-app{
-    width: 96%;
-    height:auto;
-    
-     
+.apps{
+    display: flex;
+    flex-wrap: wrap;
 }
 .medium-app{
     width: 48%;
@@ -177,6 +171,10 @@ ul {
     flex-wrap: wrap;
     justify-content:center;
     padding: 1%;
+}
+.form-group{
+    width: 70vw;
+    padding-left:35vw;
 }
 
 header {

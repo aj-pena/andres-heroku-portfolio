@@ -31,16 +31,7 @@ export default function App() {
   return (
     <div>
       <Header setCurrentPage={setCurrentPage} />
-      <div className="row work">
-                {/* <!-- section title --> */}
-            <div className="col-12 col-sm-6 col-md-4 col-lg-4 section-title">
-                <h2><a id="work-section">Work</a></h2>
-            </div>
-                {/* <!-- gallery of apps --> */}
-            <div className="col-12 col-sm-6 col-md-8 col-lg-8">                
-            {renderPage()}              
-            </div>
-        </div>     
+      {renderPage()}
       <Footer/>        
     </div>
   );
