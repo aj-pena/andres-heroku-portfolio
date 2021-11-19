@@ -1,6 +1,6 @@
 {
-  "name": "portfolio-react",
-  "homepage": "https://aj-pena.github.io/portfolio-react",
+  "name": "react-portfolio",
+  "homepage": "https://aj-pena.github.io/react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
