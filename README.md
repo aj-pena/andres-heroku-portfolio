@@ -25,13 +25,13 @@ No installation is needed. This application is run in a live webpage. Follow the
 
 ## Usage
 
-To use this application, go to the deployed webpage by followig this link: [Visit the deployed page](https://aj-pena.github.io/Portfolio-2.0/)
+To use this application, go to the deployed webpage by followig this link: [Visit the deployed page](https://react-aj.herokuapp.com/)
 
-![Image of the Landing Page]( /Assets/images/screenshot.PNG "Landing Page")
+![Image of the Landing Page]( ./public/homepage.PNG "Landing Page")
 
 Once in the landing page, go to each section by scrolling down or clicking in the corresponding menu button on the upper right corner of the page. If you go to the 'Work' section, you will find project cards like so:
 
-![Image of a project card](/Assets/images/projetCard.PNG)
+![Image of a project card](./public/projectcards.PNG)
 
 Inside the project cards you will also find links to the corresponding GitHub repository and deployed page (if applicable), in case you want to learn more about it.
 
