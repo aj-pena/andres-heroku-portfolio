@@ -7,7 +7,7 @@ export default function Navigation(props) {
             
                     <ul className="headerBtns">
                       <li><button onClick={() => props.setCurrentPage(0)} >About Me</button></li>
-                      <li><button onClick={() => props.setCurrentPage(1)}>Work</button></li>
+                      <li><button onClick={() => props.setCurrentPage(1)}>Projects</button></li>
                       <li><button onClick={() => props.setCurrentPage(2)}>Contact Me</button></li>
                       <li><button onClick={() => props.setCurrentPage(3)}>Resume</button></li>
                     </ul>                
