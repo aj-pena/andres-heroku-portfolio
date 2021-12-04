@@ -6,6 +6,9 @@ import DayPlanner from '../../Assets/images/DayPlanner.PNG'
 import CodeQuiz from '../../Assets/images/CodeQuiz.png'
 import BudgetTracker from '../../Assets/images/BudgetTracker.PNG'
 import FitnessTracker from '../../Assets/images/FitnessTracker.PNG'
+import GoogleBooks from '../../Assets/images/googleBooks.png'
+import Scholars4Dollars from '../../Assets/images/Scholars4Dollars.png' 
+
 
 const projects = [
   {
@@ -43,6 +46,18 @@ const projects = [
       page: 'https://fitness-tracker-apj.herokuapp.com/?id=618d6d09e1bbb1001665fd93',
       repo: 'https://github.com/aj-pena/Fitness-Tracker.git',
       image: FitnessTracker,
+  },
+  {
+    title: 'Google Books Search Engine',
+    page: 'https://googlebooks-ajp.herokuapp.com/',
+    repo: 'https://github.com/aj-pena/Book-search-engine.git',
+    image: GoogleBooks,
+  },
+  {
+    title: 'Scholars4Dollars',
+    page: 'https://aqueous-ocean-45024.herokuapp.com/',
+    repo: 'https://github.com/giftilicious/scholarship-app.git',
+    image: Scholars4Dollars,
   }
 
 ]
@@ -52,7 +67,7 @@ function Gallery() {
         <div className="row work">
                 {/* <!-- section title --> */}
             <div className="col-12 col-sm-6 col-md-4 col-lg-4 section-title">
-                <h2><a id="work-section">Work</a></h2>
+                <h2><a id="work-section">Projects</a></h2>
             </div>
                 {/* <!-- gallery of apps --> */}
             <div className="col-12 col-sm-6 col-md-8 col-lg-8 apps">
