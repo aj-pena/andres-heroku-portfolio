@@ -3,7 +3,6 @@
 }
 
 *{
-    /* border: solid black 1px; */
     opacity: 98%;
     font-family: 'Lora', serif;
 }
@@ -96,8 +95,6 @@ ul {
   background-size: cover;
   background-position: center;
   min-height: 250px;
-  
-
 }
 /* -------CONTENT------------- */
 h2 a {
@@ -111,21 +108,17 @@ h2 a {
    align-items: center; 
    border-right: solid  rgba(28, 49, 68) 3px;
    padding-top: 3vh; 
-  
 }
 .about{
-    
     margin-top: 3vh;    
 }
 #about-me{
     font-size: 150%;
     text-align: justify;
-    padding: 2%;      
-    
+    padding: 2%;   
 }
 /* Work section */
 .work{
-    /* max-height: 20vh; */
     margin-top: 3vh;
     margin-bottom: 3vh;
 }
@@ -138,6 +131,14 @@ h2 a {
     height:auto;
     margin-left:1%;
     margin-bottom:1%;
+}
+.card{
+    background: rgba(28, 49, 68, 0.8);
+    color: white;
+    font-size: 12px;
+}
+.card-link{
+    color: rgb(151, 201, 245);
 }
 /* Resume section */
 .resume{
@@ -152,16 +153,12 @@ h2 a {
 .resumeUl{
     list-style: disc;
     padding: 2%;
-
-
 }
 .resumeList{
     float:none;
     min-width: 10vw;
     margin-right: 1vw;
-    font-size: 120%;
-    
-      
+    font-size: 120%;      
 }
 
 /* Contact section */
@@ -212,14 +209,9 @@ h1 {
 /* Format my photograph */
 .me{
     display: block;
-    /* align-self: flex-start; */
     margin: 0;
     max-width: 200px;
     max-height: 200px;
-    /* border: solid black 1px; */
-    /* border-radius: 45px; */
-    /* opacity: 99%; */
-    /* flex: 0 1 400px; */
     margin-top: 2vh;
 }
 #subtitle{

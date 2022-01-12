@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
 
-function Contact() {
+function Fun() {
     const [form, setForm ] = useState({        
         userName: '',
         email: '',
@@ -75,4 +75,4 @@ const handleFormSubmit = (e) => {
     )
 }
 
-export default Contact
+export default Fun

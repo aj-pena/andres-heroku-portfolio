@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/pages/About';
-import Contact from './components/pages/Contact';
+import Fun from './components/pages/Fun';
 import Gallery from './components/pages/Gallery';
 import Resume from './components/pages/Resume';
 
@@ -20,7 +20,7 @@ export default function App() {
     case 1: 
       return <Gallery/>;
     case 2:
-      return <Contact/>;
+      return <Fun/>;
     case 3:
       return <Resume/>;
     
