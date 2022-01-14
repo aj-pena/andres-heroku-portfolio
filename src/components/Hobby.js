@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-function Hobby({title, page, repo, image, description}) {
+function Hobby({title, resource, image, description}) {
     return (
                                         
         <div className="card card-medium medium-app">
@@ -10,8 +10,7 @@ function Hobby({title, page, repo, image, description}) {
             <div className="card-body">
                 <h5 className="card-title">{title}</h5>
                 <p className='project-description'>{description}</p>
-                <a href={page} className="card-link">Deployed App</a>
-                <a href={repo} className="card-link">GitHub Repo</a>                          
+                <a href={resource} className="card-link">more</a>                                          
             </div>                  
         </div>                           
         
