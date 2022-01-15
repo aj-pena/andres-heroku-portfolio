@@ -20,7 +20,7 @@ function About() {
                        avid learner with Bachelor and Masters degrees in Civil Engineering. Recently earned a Certificate in 
                        Full-stack Development from the University of Toronto, and aquired newly developed skills in JavaScript, 
                        CSS, React.js, SQL, MongoDB, Express and NodeJS. Strengths in creativity, responsibility, teamwork, and building 
-                       projects from ideation to execution. 
+                       projects from ideation to execution. <em>To learn more about my skills go to the <strong>Resume</strong> section.</em>
                        </p>    
               </div>
             </div>

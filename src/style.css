@@ -109,7 +109,7 @@ h2 a {
    border-right: solid  rgba(28, 49, 68) 3px;
    padding-top: 3vh; 
 }
-.about{
+.about {
     margin-top: 3vh;    
 }
 #about-me{
@@ -142,13 +142,7 @@ h2 a {
 }
 /* Resume section */
 .resume{
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-   align-items:flex-start;
-   padding-left: 10vw;
-   padding-top: 5vh;
-   padding-bottom: 5vh;
+    margin-top: 3vh;
 }
 .resumeUl{
     list-style: disc;
