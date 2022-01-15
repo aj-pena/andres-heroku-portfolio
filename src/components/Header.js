@@ -17,7 +17,7 @@ export default function Header(props) {
             <div className="row ribbon-wrapper">
               {/* <!-- subtitle --> */}
                 <div className="col ribbon">                  
-                  <h3 id="subtitle">Hi ! I am a web developer passionate about mountains, woodworking and drawing.</h3>
+                  <h3 id="subtitle">Hi ! I am a web developer passionate about mountains, creating and drawing.</h3>
                 </div>              
               </div>
         </div>
