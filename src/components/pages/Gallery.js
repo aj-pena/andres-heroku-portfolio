@@ -7,8 +7,9 @@ import CodeQuiz from '../../Assets/images/CodeQuiz.png'
 import BudgetTracker from '../../Assets/images/BudgetTracker.PNG'
 import FitnessTracker from '../../Assets/images/FitnessTracker.PNG'
 import GoogleBooks from '../../Assets/images/googleBooks.png'
-import Scholars4Dollars from '../../Assets/images/Scholars4Dollars.png' 
-
+import Scholars4Dollars from '../../Assets/images/Scholars4Dollars.png'
+import LeadTracker from '../../Assets/images/LeadTracker.PNG' 
+import Snake from '../../Assets/images/Snake.png'
 
 const projects = [
   {
@@ -66,7 +67,21 @@ const projects = [
     repo: 'https://github.com/giftilicious/scholarship-app.git',
     image: Scholars4Dollars,
     description: 'MERN web application that helps underserved students find funding for college or university',
-  }
+  },
+  {
+    title: 'Lead Tracker',
+    page: 'https://github.com/aj-pena/Lead_Tracker.git',
+    repo: 'https://github.com/aj-pena/Lead_Tracker.git',
+    image: LeadTracker,
+    description: 'Lead tracker is a Google Chrome extension that allows the user to capture and store a list of relevant URLS. The data uses Local Storage to allow for data permanence. Once a specific lead is no longer necessary, the user can delete it from the list. As it is a browser extension, it does not have a live webpage.',
+  },
+  {
+    title: 'Snake Game',
+    page: 'https://aj-pena.github.io/snake/',
+    repo: 'https://github.com/aj-pena/snake.git',
+    image: Snake,
+    description: 'This application replicates the traditional Nokia snake game, where a snake will move continuously within a field and the user controls the snake movement with the keyboard arrow keys.',
+  },
 
 ]
 
