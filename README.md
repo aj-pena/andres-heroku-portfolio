@@ -25,7 +25,7 @@ No installation is needed. This application is run in a live webpage. Follow the
 
 ## Usage
 
-To use this application, go to the deployed webpage by followig this link: [Visit the deployed page](https://react-aj.herokuapp.com/)
+To use this application, go to the deployed webpage by followig this link: [Visit the deployed page](https://andres-pena-portfolio.herokuapp.com/)
 
 ![Image of the Landing Page]( ./public/homepage.PNG "Landing Page")
 
