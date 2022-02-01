@@ -28,7 +28,8 @@ h1 a{
     text-decoration: none;
     font-weight: bold; 
 }
-h1 a:hover{
+h1 a:hover,
+h1 a:focus{
     background-color: #cecbcb;
 }
 .navigation{
@@ -47,15 +48,15 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: white;
-  }
+}
   
-  li {
+li {
     float: right;
     min-width: 10vw;
     margin-right: 1vw;
-  }
+}
   
-  li a {
+li a {
     display: block;
     color:black;
     text-align: center;
@@ -63,12 +64,12 @@ ul {
     text-decoration: none;
     font-weight: bold;
     font-size: 150%;
-  }
+}
   
-  li a:hover {
+li a:hover {
     background-color: #cecbcb;
-  }
-  button {
+}
+button {
     display: block;
     color: white;
     background: none;
@@ -80,10 +81,10 @@ ul {
     font-weight: 600;
     font-size: 18pt;
     font-family: 'Lora', serif;
-  }
-  button:hover {
+}
+button:hover {
     background-color: #cecbcb;
-  }
+}
    /* -------RIBBON------------- */
 .ribbon-wrapper{
     margin-top: 0;
@@ -115,7 +116,7 @@ h2 a {
 #about-me{
     font-size: 150%;
     text-align: justify;
-    padding: 2%;   
+    padding: 2em;   
 }
 /* Work section */
 .work{
@@ -141,12 +142,13 @@ h2 a {
     color: rgb(151, 201, 245);
 }
 /* Resume section */
+
 .resume{
     margin-top: 3vh;
 }
 .resumeUl{
     list-style: disc;
-    padding: 2%;
+    padding: 2%;    
 }
 .resumeList{
     float:none;
@@ -247,4 +249,17 @@ span {
         width: 100%;
         height:auto;
     }
+    .ribbon #subtitle{
+        margin: 0 1em;
+    }
+}
+@media screen and (max-width: 600px){
+    #myName {
+        text-align: center;
+    }
+    .resumeUl{  
+        margin: 0 35%;
+        width: 50%;        
+    }    
+    
 }

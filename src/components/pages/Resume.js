@@ -30,6 +30,7 @@ function Resume() {
                             <li className= 'resumeList'><span >&#9899;</span>MongoDB</li>
                             <li className= 'resumeList'><span >&#9899;</span>Express.js</li>
                             <li className= 'resumeList'><span >&#9899;</span>React.js</li>
+                            <li className= 'resumeList'><span >&#9899;</span>Git</li>
                         </ul>                        
                     </div>
                     <div className="col-12 col-sm-2 col-md-2 col-lg-2">
