@@ -52,7 +52,7 @@ const projects = [
       page: 'https://fitness-tracker-apj.herokuapp.com/?id=618d6d09e1bbb1001665fd93',
       repo: 'https://github.com/aj-pena/Fitness-Tracker.git',
       image: FitnessTracker,
-      description: 'This application allows the user to create workouts and add exercises to each workout. By keeping track of the number of workouts and time spent, the user can reach his/her goals faster.',
+      description: 'This application allows the user to create workouts and add exercises to each workout. By keeping track of the number of workouts and time spent, the user can reach goals faster.',
   },
   {
     title: 'Google Books Search Engine',
@@ -73,14 +73,14 @@ const projects = [
     page: 'https://github.com/aj-pena/Lead_Tracker.git',
     repo: 'https://github.com/aj-pena/Lead_Tracker.git',
     image: LeadTracker,
-    description: 'Lead tracker is a Google Chrome extension that allows the user to capture and store a list of relevant URLS. The data uses Local Storage to allow for data permanence. Once a specific lead is no longer necessary, the user can delete it from the list. As it is a browser extension, it does not have a live webpage.',
+    description: 'Lead tracker is a Google Chrome extension that allows the user to capture and store a list of relevant URLS. The application uses Local Storage to allow for data permanence. Once the leads are no longer necessary, they can be deleted. As Lead Tracker is a browser extension, it does not have a live webpage.',
   },
   {
     title: 'Snake Game',
     page: 'https://aj-pena.github.io/snake/',
     repo: 'https://github.com/aj-pena/snake.git',
     image: Snake,
-    description: 'This application replicates the traditional Nokia snake game, where a snake will move continuously within a field and the user controls the snake movement with the keyboard arrow keys.',
+    description: 'This application replicates the traditional Nokia snake game, where a snake will move continuously within a field and the user controls the snake movement with the keyboard arrow keys. Currently, it can only be played on a PC with the keyboard.',
   },
 
 ]

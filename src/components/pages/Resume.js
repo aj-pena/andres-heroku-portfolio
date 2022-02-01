@@ -16,25 +16,25 @@ function Resume() {
 
                     <div className="col-12 col-sm-2 col-md-2 col-lg-2">
                         <ul className='resumeUl'>
+                            <li className= 'resumeList'><span >&#9899;</span>JavaScript</li>
                             <li className= 'resumeList'><span >&#9899;</span>HTML</li>
                             <li className= 'resumeList'><span >&#9899;</span>CSS</li>
-                            <li className= 'resumeList'><span >&#9899;</span>JavaScript</li>
-                            <li className= 'resumeList'><span >&#9899;</span>ExpressJs</li>
+                            <li className= 'resumeList'><span >&#9899;</span>Bootstrap</li>
                             <li className= 'resumeList'><span >&#9899;</span>NodeJs</li>
                         </ul>
                         
                     </div>
                     <div className="col-12 col-sm-2 col-md-2 col-lg-2">
                         <ul className='resumeUl'>
-                            <li className= 'resumeList'><span >&#9899;</span>SQL</li>
-                            <li className= 'resumeList'><span >&#9899;</span>NoSQL</li>
-                            <li className= 'resumeList'><span >&#9899;</span>MongoDb</li>
-                            <li className= 'resumeList'><span >&#9899;</span>React</li>
+                            <li className= 'resumeList'><span >&#9899;</span>MySQL</li>
+                            <li className= 'resumeList'><span >&#9899;</span>MongoDB</li>
+                            <li className= 'resumeList'><span >&#9899;</span>Express.js</li>
+                            <li className= 'resumeList'><span >&#9899;</span>React.js</li>
                         </ul>                        
                     </div>
                     <div className="col-12 col-sm-2 col-md-2 col-lg-2">
                         <ul className='resumeUl'>
-                            <li className= 'resumeList'><span >&#9899;</span>Problem-Solver</li>
+                            <li className= 'resumeList'><span >&#9899;</span>Problem Solver</li>
                             <li className= 'resumeList'><span >&#9899;</span>Avid Learner</li>
                             <li className= 'resumeList'><span >&#9899;</span>Detail Oriented</li>
                             <li className= 'resumeList'><span >&#9899;</span>Team Player</li>
