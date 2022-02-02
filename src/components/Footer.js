@@ -7,7 +7,7 @@ function Footer() {
             <div className="row contact">
                 {/* <!-- section title --> */}
                 <div className="col-12 col-sm-6 col-md-4 col-lg-4 section-title">
-                    <h2><a id="contact-me-section">Contact Me</a></h2>
+                    <h2>Contact Me</h2>
                 </div>
                 {/* <!-- contact methods --> */}
                 <div className="col-12 col-sm-6 col-md-8 col-lg-8">

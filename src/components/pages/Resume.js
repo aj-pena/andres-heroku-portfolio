@@ -8,7 +8,7 @@ function Resume() {
                 <div className="row resume">
                     {/* <!-- section title --> */}
                     <div className="col-12 col-sm-6 col-md-4 col-lg-4 section-title">
-                        <h2><a id="work-section">Skills</a></h2>
+                        <h2>Skills</h2>
                         <br/>
                             <a className="copy-resume" href={pdf}>Download a copy of my Resume</a>
                         <br/>

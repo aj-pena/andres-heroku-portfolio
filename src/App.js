@@ -15,8 +15,10 @@ export default function App() {
   const [ currentPage, setCurrentPage] = useState(0);
  function renderPage(){
   switch (currentPage){
-    case 0:
+    default:
       return <About/>;
+    case 0:
+      return <About/>;      
     case 1: 
       return <Gallery/>;
     case 2:

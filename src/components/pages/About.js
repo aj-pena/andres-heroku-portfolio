@@ -8,7 +8,7 @@ function About() {
             <div className="row about">
                 {/* <!-- section title --> */}
                 <div className="col-12 col-sm-6 col-md-4 col-lg-4 section-title">
-                  <h2><a id="about-me-section">About Me</a></h2>
+                  <h2>About Me</h2>
                   {/* <!-- Photo of me --> */}
                   <img className="me" src={Picture} alt="Photograph of Andrés Peña"/>
                 </div>

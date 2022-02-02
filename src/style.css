@@ -98,7 +98,8 @@ button:hover {
   min-height: 250px;
 }
 /* -------CONTENT------------- */
-h2 a {
+h2 a,
+.section-title h2 {
     font-weight: 600;
     font-family: 'Lora', serif;
 }
@@ -158,6 +159,10 @@ h2 a {
 }
 
 /* Contact section */
+#contact-me-section{
+    text-decoration: none;
+    color: currentColor;
+}
 .contact{
     margin-top: 1%;
     min-height: 10vh;
